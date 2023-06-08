@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title" : "Pelicula",
+    "type": "object",
+    "properties": {
+        "nombre": {"type": "string", 
+        			"description": "nombre de la pelicula",
+        			"maxLength": 255,
+        			"minLength": 1
+        },
+        "duracion": {"type": "integer"}
+    },
+    "required": ["nombre", "duracion"]
+} 
